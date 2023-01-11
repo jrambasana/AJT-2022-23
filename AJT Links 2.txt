@@ -1,0 +1,10 @@
+Start NetBeans + Xampp / Wamp server
+
+Open in browser: 
+https://bit.ly/jdbcex1
+
+Open in browser (to download the driver):
+https://bit.ly/ajpdriver4
+
+
+https://bit.ly/ajt2023
