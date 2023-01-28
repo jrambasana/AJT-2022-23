@@ -5,10 +5,10 @@ public static void main(String args[]){
 try{  
 Class.forName("com.mysql.jdbc.Driver");  
 Connection con=DriverManager.getConnection(  
-"jdbc:mysql://localhost:3306/db11","root","");  
+"jdbc:mysql://localhost:3306/db1","root","");  
 Statement stmt = con.createStatement();  
 
-int result = stmt.executeUpdate("insert into emp values (3, 'aaa', 'Pune')");
+int result = stmt.executeUpdate("insert into emp values (1, 'abc', 'Pune')");
 System.out.println(result + " record inserted");
 
 ResultSet rs = stmt.executeQuery("select * from emp");  

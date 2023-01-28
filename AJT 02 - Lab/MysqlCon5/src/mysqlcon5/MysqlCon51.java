@@ -2,10 +2,10 @@ package mysqlcon5;
 import java.sql.*;  
 public class MysqlCon51 {
 public static void main(String args[]){  
-try{  
+try{
     Class.forName("com.mysql.jdbc.Driver");  
     Connection con=DriverManager.getConnection(  
-    "jdbc:mysql://localhost:3306/db5","root","");  
+    "jdbc:mysql://localhost:3306/db1","root","");  
     Statement stmt=con.createStatement();  
     
     int result = stmt.executeUpdate("insert into emp values(3, 'abcd', 'Rajkot')");
